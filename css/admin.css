@@ -1,0 +1,50 @@
+body{
+	/*background: #014E70;*/
+}
+
+#login{
+	padding: 10px 0 0 0;
+    margin-top: 10px;
+}
+
+.login #login h1 a {
+    background-image: url( http://crie.org.gt/wp-content/uploads/2019/10/crie-308x92.png );
+    background-size: 200px auto;
+}
+
+
+.login h1 a{
+	height: 130px;
+	width: 200px;
+}
+
+.login #nav a, .login #backtoblog a {
+    color: #014E70 !important;
+}
+
+.login #nav a:hover, .login #backtoblog a:hover {
+    color: #063D87 !important;
+    text-decoration: underline;
+}
+
+.login .button-primary {
+    background: #3A95BC; /* Old browsers */
+    background: -moz-linear-gradient(top, #3A95BC 0%, #012A3D 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3A95BC), color-stop(100%,#012A3D)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #3A95BC 0%,#012A3D 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #3A95BC 0%,#012A3D 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #3A95BC 0%,#012A3D 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #3A95BC 0%,#012A3D 100%); /* W3C */
+    border-color: #0283BC;
+}
+
+.login .button-primary:hover {
+    background: #014E70; /* Old browsers */
+    background: -moz-linear-gradient(top, #014E70 0%, #063D87 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#014E70), color-stop(100%,#063D87)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #014E70 0%,#063D87 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #014E70 0%,#063D87 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #014E70 0%,#063D87 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #014E70 0%,#063D87 100%); /* W3C */
+    border-color: #0283BC;
+}
